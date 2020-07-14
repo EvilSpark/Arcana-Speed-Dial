@@ -1,7 +1,3 @@
-// yet another speed dial
-// copyright 2019 dev@conceptualspace.net
-// absolutely no warranty is expressed or implied
-
 "use strict";
 
 let messagePorts = [];
@@ -485,7 +481,7 @@ function init() {
     });
 
     // todo: runtime.oninstalled
-    browser.runtime.setUninstallURL("https://forms.gle/UPvfa1xKZtoHJDeN7");
+    browser.runtime.setUninstallURL("https://kamrantahir.me");
 }
 
 browser.runtime.onInstalled.addListener(handleInstalled);
