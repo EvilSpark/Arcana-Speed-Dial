@@ -379,12 +379,16 @@ input:focus {
     justify-content: center;
 }
 
+#folders {
+    display: flex;
+}
+
 #foldersContainer {
-    min-height: 78px;
+    max-height: 60px;
     margin-right: 140px;
     margin-left: 30px;
     display: flex;
-    align-items: center;
+    align-items: baseline;
 }
 
 #addFolderIcon {
