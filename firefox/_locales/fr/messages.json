@@ -1,0 +1,10 @@
+{
+  "extensionName": {
+    "message": "Arcana Speed Dial",
+    "description": "title of the app, displayed in store"
+  },
+  "extensionDescription": {
+    "message": "Une extension de numérotation rapide axée sur la confidentialité",
+    "description": "description of the app, displayed in store"
+  }
+}

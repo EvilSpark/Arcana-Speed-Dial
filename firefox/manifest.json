@@ -3,8 +3,8 @@
   "name": "__MSG_extensionName__",
   "description": "__MSG_extensionDescription__",
   "default_locale": "en",
-  "version": "1.6.8",
-  "author": "dev@conceptualspace.net",
+  "version": "1.1.1",
+  "author": "spark",
   "icons": {
     "16": "icons/icon16.png",
     "32": "icons/icon32.png",
@@ -24,6 +24,9 @@
   ],
   "chrome_url_overrides": {
     "newtab": "index.html"
+  },
+  "chrome_settings_overrides": {
+    "homepage": "index.html"
   },
   "background": {
     "scripts": ["js/lib/browser-polyfill.min.js", "js/background.js"]
@@ -52,5 +55,11 @@
       }
     ],
     "default_title": "Add to Speed Dial"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "spark@arcanaspeeddial.com",
+      "strict_min_version": "59.0"
+    }
   }
 }

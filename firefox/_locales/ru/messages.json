@@ -1,0 +1,10 @@
+{
+  "extensionName": {
+    "message": "Arcana Speed Dial",
+    "description": "title of the app, displayed in store"
+  },
+  "extensionDescription": {
+    "message": "Современное расширение для быстрого набора номера, ориентированное на конфиденциальность",
+    "description": "description of the app, displayed in store"
+  }
+}
